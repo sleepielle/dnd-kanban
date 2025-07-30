@@ -14,7 +14,9 @@ function NavBar() {
       <div className="flex items-center gap-5">
         <ModeToggle />
         <Separator orientation="vertical" className="h-5 w-[2px] bg-gray-500" />
-        <Button className="rounded-xl h-10 shadow-none">Add New Project</Button>
+        <Button className="rounded-xl h-10 shadow-none bg-gradient-light-blue text-white">
+          Add New Project
+        </Button>
       </div>
     </div>
   );

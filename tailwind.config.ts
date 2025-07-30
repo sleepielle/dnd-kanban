@@ -1,5 +1,5 @@
 import type { Config } from "tailwindcss";
-import animate from "tailwindcss-animate";
+import tailwindcssAnimate from "tailwindcss-animate";
 
 export default {
   darkMode: ["class"],
@@ -57,7 +57,10 @@ export default {
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
       },
+      backgroundImage: {
+        "gradient-light-blue": "linear-gradient(to right, #0e8ad1, #2563eb)",
+      },
     },
   },
-  plugins: [animate],
+  plugins: [tailwindcssAnimate],
 } satisfies Config;

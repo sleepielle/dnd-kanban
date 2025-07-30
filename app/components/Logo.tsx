@@ -4,8 +4,8 @@ import { FaProjectDiagram } from "react-icons/fa";
 function Logo() {
   return (
     <div className="flex items-center gap-2">
-      <div className="bg-primary size-10 text-lg text-white rounded-xl flex justify-center items-center">
-        <FaProjectDiagram />
+      <div className="bg-primary size-10 text-lg text-white rounded-xl flex justify-center items-center bg-gradient-light-blue">
+        <FaProjectDiagram className="bg-gradient-light-blue" />
       </div>
 
       <div className="flex gap-1 items-center text-xl">
